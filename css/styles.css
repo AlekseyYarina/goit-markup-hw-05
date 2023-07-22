@@ -751,9 +751,10 @@ img {
   margin-right: 8px;
 }
 .modal-chekbox-input:checked + .modal-chekbox-label span {
-  /* border: none; */
+  border: none;
   fill: var(--cloud);
-  fill:var(--navyblue);
+  background-color: var(--ocean);
+
 }
 .modal-label-policy {
   color: var(--iris);
@@ -764,7 +765,7 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
