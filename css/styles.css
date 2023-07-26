@@ -812,7 +812,7 @@ margin-bottom: 16px;
   margin-right: 8px;
   cursor: pointer;
  }
-.modal-chekbox-input:checked + .modal-chekbox-label span {
+ .modal-chekbox-input:checked + .modal-chekbox-label .chekbox-label-icon {
   border: none;
   fill: var(--cloud);
   background-color: var(--ocean);
